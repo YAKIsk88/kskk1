@@ -1,15 +1,14 @@
 body {
   background-color:rgb(228, 228, 228);
   width: 100%;
-  margin: 0 auto;
   padding-top: 50px;
   height: auto;
-  border: 3px solid;
 }
 
 #title {
   text-align: center;
   color: forestgreen;
+  font-size: 40px;
 }
 
 #expenseSpace {
@@ -36,12 +35,12 @@ body {
 #inputSpace {
   background-color: forestgreen;
   height: 40px;
-  display: flex;
-  /* justify-content: center; */
   align-items: center;
   max-width: 560px;
   border-radius: 7px;
   margin-inline: auto;
+  display: flex;
+  justify-content: space-around;
 }
 
 #date {
@@ -49,14 +48,12 @@ body {
   border-radius: 7px;
   border: none;
   height: 27px;
-  margin: 0 7px 0 7px;
 }
 
 #text {
   border-radius: 7px;
   border: none;
   height: 26px;
-  margin-right: 7px;
   width: 200px;
 }
 
@@ -64,14 +61,12 @@ body {
   border-radius: 7px;
   border: none;
   height: 30px;
-  margin-right: 7px;
 }
 
 #cashAmount {
   border-radius: 7px;
   border: none;
   height: 27px;
-  margin-right: 7px;
   width: 100px;
 }
 
@@ -81,8 +76,12 @@ body {
   height: 30px;
 }
 
+#boxDiv {
+  background-color: rgb(255, 255, 255);
+}
+
 #boxDiv > div{
-  margin: 10px;
+  margin: 7px;
 }
 
 #divDate {
@@ -133,9 +132,8 @@ p {
 }
 
 .deliBtn {
-  /* vertical-align: middle */
   border-radius: 8px;
   border: none;
-  background-color: rgb(249, 67, 67);
+  background-color: rgb(255, 82, 82);
   width: 55px;
 }
