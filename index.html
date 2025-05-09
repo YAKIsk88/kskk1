@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">支出管理サイト</h1>
+    <div id="inputSpace">
+        <input type="date" id="date">
+        <input type="text" placeholder="テキストを入力" id="text">
+        <select id="option">
+            <option value="収入">収入</option>
+            <option value="支出">支出</option>
+        </select>
+        <input type="text" placeholder="金額を入力" size="8" id="cashAmount">
+        <button id="addBtn">追加</button>
+    </div>
+    <div id="expenseSpace"></div>
+    <p>残高</p>
+    <div id="budgetSpace"></div>
+    
+    <script type="text/javascript" src="main.js" defer>
+    </script>
+</body>
+</html>

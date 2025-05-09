@@ -1,0 +1,133 @@
+
+body {
+  background-color:rgb(228, 228, 228);
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 50px;
+  height: auto;
+}
+
+#title {
+  text-align: center;
+  color: forestgreen;
+}
+
+#expenseSpace {
+  background-color: rgb(136, 136, 135);
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 25px;
+  min-width: 560px;
+  min-height: 100px;
+  text-align: center;
+}
+
+
+#boxDiv {
+  display: flex;
+  width: auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  margin: 2px;
+}
+
+#inputSpace {
+  background-color: forestgreen;
+  height: 40px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 560px;
+  border-radius: 7px;
+}
+
+#date {
+  background-color: rgb(255, 255, 255);
+  border-radius: 7px;
+  border: none;
+  height: 27px;
+  margin: 0 7px 0 7px;
+}
+
+#text {
+  border-radius: 7px;
+  border: none;
+  height: 26px;
+  margin-right: 7px;
+  width: 200px;
+}
+
+#option {
+  border-radius: 7px;
+  border: none;
+  height: 30px;
+  margin-right: 7px;
+}
+
+#cashAmount {
+  border-radius: 7px;
+  border: none;
+  height: 27px;
+  margin-right: 7px;
+  width: 100px;
+}
+
+#addBtn {
+  border-radius: 7px;
+  border: none;
+  height: 30px;
+}
+
+#boxDiv > div{
+  margin: 10px;
+}
+
+#divDate {
+  width: 110px;
+}
+
+#divText {
+  width: 200px;
+}
+
+#divOption {
+  width: 50px;
+}
+
+#divCashAmount {
+  width: 200px;
+}
+
+.income {
+  color: forestgreen;
+}
+
+.expense {
+  color: red;
+}
+
+#budgetSpace {
+  font-size: 25px;
+  background-color: white;
+  border-radius: 7px;
+  padding-left: 7px;
+  margin-bottom: 80px;
+
+}
+
+p {
+  font-size: 20px;
+  background-color: forestgreen;
+  border-radius: 7px;
+  padding-left: 7px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.deliBtn {
+  /* vertical-align: middle */
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(249, 67, 67);
+  width: 55px;
+}
