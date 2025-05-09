@@ -17,7 +17,7 @@ body {
   border-radius: 20px;
   padding: 10px;
   margin-top: 25px;
-  max-width: 680px;
+  max-width: 1000px;
   width: 80%;
   min-height: 100px;
   margin-inline: auto;
@@ -25,11 +25,12 @@ body {
 
 
 #boxDiv {
-  display: flex;
   width: auto;
   background-color: rgb(255, 255, 255);
   border-radius: 8px;
   margin: 2px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #inputSpace {
@@ -115,7 +116,8 @@ body {
   padding-left: 7px;
   margin-bottom: 80px;
   margin-inline: auto;
-  max-width: 560px;
+  max-width: 1000px;
+  width: 80%;
 }
 
 p {
@@ -126,7 +128,8 @@ p {
   color: white;
   margin-bottom: 5px;
   margin-inline: auto;
-  max-width: 560px;
+  max-width: 1000px;
+  width: 80%;
 }
 
 .deliBtn {
@@ -135,9 +138,4 @@ p {
   border: none;
   background-color: rgb(249, 67, 67);
   width: 55px;
-}
-
-
-@media screen and (max-width: 480px) {
-  
 }
