@@ -1,10 +1,10 @@
-
 body {
   background-color:rgb(228, 228, 228);
   width: 80%;
   margin: 0 auto;
   padding-top: 50px;
   height: auto;
+  border: 3px solid;
 }
 
 #title {
@@ -17,9 +17,10 @@ body {
   border-radius: 20px;
   padding: 10px;
   margin-top: 25px;
-  min-width: 560px;
+  max-width: 680px;
+  width: 80%;
   min-height: 100px;
-  text-align: center;
+  margin-inline: auto;
 }
 
 
@@ -37,8 +38,9 @@ body {
   display: flex;
   /* justify-content: center; */
   align-items: center;
-  width: 560px;
+  max-width: 560px;
   border-radius: 7px;
+  margin-inline: auto;
 }
 
 #date {
@@ -112,7 +114,8 @@ body {
   border-radius: 7px;
   padding-left: 7px;
   margin-bottom: 80px;
-
+  margin-inline: auto;
+  max-width: 560px;
 }
 
 p {
@@ -122,6 +125,8 @@ p {
   padding-left: 7px;
   color: white;
   margin-bottom: 5px;
+  margin-inline: auto;
+  max-width: 560px;
 }
 
 .deliBtn {
@@ -130,4 +135,9 @@ p {
   border: none;
   background-color: rgb(249, 67, 67);
   width: 55px;
+}
+
+
+@media screen and (max-width: 480px) {
+  
 }
